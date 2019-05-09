@@ -1,0 +1,21 @@
+import Rodados.*
+
+test "corsa" {
+
+	var corsa = new Rodado()
+	corsa.peso(1300)
+	corsa.capacidad(4)
+	corsa.velocidad(150)
+	corsa.color("rojo")
+	assert.equals(4,corsa.capacidad())
+	
+}
+
+test "Kwid" {
+	var kwid = new Rodado()
+	kwid.peso(1500)
+	kwid.tieneGas(true)
+	kwid.capacidad(4)
+	kwid.velocidad(120)
+	assert.equals(4,kwid.capacidad())
+}
