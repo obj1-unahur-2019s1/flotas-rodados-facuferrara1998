@@ -1,0 +1,6 @@
+import Rodados.*
+import Dependencia.*
+
+describe "Dependencias"{
+	const cultura = new Corsa(color = "rojo")
+	}
